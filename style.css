@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+html {
+    width: 970px;
+}
+#header {
+    margin: 10px 0px;
+}
+h1, h2 {
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+h2 {
+    float: right;
+}
+p, a, img, .tiles {
+    background: transparent;
+}
+#container {
+    background: radial-gradient(#6f5964, #1f0f13);
+    margin: 5px;
+    padding: 20px;
+}
+#p_pic, #about {
+    margin: 10px;
+    display: inline-block;
+}
+#p_pic {
+    width: 40%;
+    height: auto;
+    background-color: #C0C0C0;
+    padding: 5px;
+}
+#about {
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+    width: 500px;
+    height: auto;
+    padding-bottom: 16px;
+    float: right;
+}
+#about p, #about a {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+#about h3 {
+    margin-bottom: 10px;
+}
+h3, h4 {
+    background-color: #9C9BA4;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+h3 {
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    font-size: 22px;
+}
+h4 {
+    font-size: 18px;
+}
+.content {
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+    width: 284px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+.content_pic {
+    width: 100%;
+    height: auto;
+}
+.content p {
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tiles img {
+    width: 15%;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+}
+#la_mode p {
+    padding-bottom: 56px;
+}
+#family_contacts p {
+    padding-bottom: 40px;
+}
+#fiveEleven p {
+    padding-bottom: 6px;
+}
+button {
+    background-color: #407D61;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#footer {
+    padding: 5px 0px;
+}
+#footer p {
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+#s_contact {
+    margin: 10px auto;
+    width: 40%;
+}
+#footer img {
+    width: 5%;
+    height: auto;
+    text-align: center;
+}
+#footer a {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: top;
+}
